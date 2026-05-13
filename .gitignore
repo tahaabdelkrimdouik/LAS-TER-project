@@ -1,5 +1,10 @@
-# Ignore large dataset files
-loc-brightkite_totalCheckins.txt/
+# Large local datasets / generated data
+loc-brightkite_totalCheckins.txt
 loc-brightkite_totalCheckins.txt.zip
-loc-brightkite_totalCheckins.txt/
+Real_Dataset_Results
 *.zip
+
+# Python / notebook generated files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
